@@ -233,6 +233,9 @@ input {
     padding: 3rem;
     transition: .4s;
   }
+  .sponsor__container {
+    text-align: center;
+  }
 }
 
 .nav__list {
@@ -811,6 +814,9 @@ input {
     width: 470px;
     margin: 0 auto;
   }
+  .sponsor__container{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -925,6 +931,9 @@ input {
     flex-direction: row;
     justify-content: space-between;
   }
+  .sponsor__container{
+    text-align: center;
+  }
 }
 
 /* For large devices */
@@ -993,11 +1002,17 @@ input {
   .footer__content {
     justify-items: center;
   }
+  .sponsor__container{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1024px;
+  }
+  .sponsor__container{
+    text-align: center;
   }
 }
 
@@ -1008,5 +1023,8 @@ input {
   }
   .home__container, .home__img {
     height: 640px;
+  }
+  .sponsor__container{
+    text-align: center;
   }
 }
