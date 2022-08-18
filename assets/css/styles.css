@@ -792,6 +792,9 @@ input {
   .video__container {
     padding: 0;
   }
+  .sponsor__container{
+    text-align: center;
+  }
 }
 
 /* For medium devices */
